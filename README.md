@@ -183,7 +183,8 @@ plt.plot(x,y,label='line1')
  plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/c45b49d5-2b4a-46ec-836a-cd5d6d330f6d)
-`` import matplotlib.pyplot as plt
+```
+ import matplotlib.pyplot as plt
  import numpy as np
  np.random.seed(0)
  data=np.random.normal(loc=0,scale=1,size=100)
@@ -198,7 +199,8 @@ plt.plot(x,y,label='line1')
  ax.set_title('Box Plot')
  ```
 ![image](https://github.com/user-attachments/assets/fa0a1ccb-5c95-4d79-964a-c5ce0435f2c4)
-```labels='Python','C++','Ruby','Java'
+```
+labels='Python','C++','Ruby','Java'
 sizes=[215,130,245,210]
 colors=['gold','yellowgreen','lightcoral','lightskyblue']
 explode=(0,0.4,0,0.5)
@@ -207,6 +209,7 @@ plt.axis('equal')
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/89fd4dc5-922b-45cc-9210-404aebd34dcb)
+```
 activities=['eat','sleep','work','play']
 slices=[3,7,8,6]
 colors=['r','y','g','b']
